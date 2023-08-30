@@ -1,6 +1,7 @@
 /* all */
-*{max-width: 100%; max-height: 100%; margin: auto;}
+*{max-width: 100%; max-height: 100%;}
 
+/* pc */
 /* header */
 .header_top{max-width: 100%; height: 36px; background:#f5f5f5;}
 .header_logo{display: flex;}
@@ -17,4 +18,18 @@
 .buy1{ border-radius:30px; width: 107px; height: 40px; text-align: center; color: white; background: #000; position: relative; left: calc(100% - 53%); font-size: 16px; line-height: 36px;}
 
 /* content */
-.contents_inner{max-width: calc(100% - 60px); margin: auto;}
+.content1{max-width: calc(100% - 80px); margin: auto;}
+.c1_text{text-align: center;}
+.content2{max-width: calc(100% - 60px); margin: auto;}
+.c2_text{text-align: center;}
+.video{max-width: calc(100% - 80px); margin: auto;}
+.c3_text{text-align: center;}
+.c4_text{text-align: center;}
+.content5{max-width: calc(100% - 80px); margin: auto;}
+.c5_text{text-align: center;}
+.content6{max-width: calc(100% - 80px); margin: auto;}
+.c6_text{text-align: center;}
+.content_inner1{display: flex; margin: auto;}
+.inner1text{position: relative; top: 600px; right: 700px;}
+.content_inner2{display: flex; max-width: calc(100% - 80px);}
+.content_inner3{display: flex; }
