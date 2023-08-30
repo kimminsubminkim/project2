@@ -1,8 +1,8 @@
-.inner{max-width: 100%; background-color: aqua; margin: auto;}
-.innerheader{max-width: 100%;  background-color: antiquewhite;margin: auto;}
-header{max-width: 100%; height: 118px; background: yellowgreen;margin: auto;}
-.banner{max-width: 90%;  height: 1214px; background: rgb(245, 169, 69);margin: auto;}
-.content1{max-width: 90%;  height: 816px; background: wheat; margin: auto;}
+.inner{max-width: 100%; /* background-color: aqua; */ margin: auto;}
+.innerheader{max-width: 100%;  /* background-color: antiquewhite; */margin: auto;}
+header{max-width: 100%; height: 118px; /* background: yellowgreen; */margin: auto;}
+.banner{max-width: 90%;  height: 1214px; /* background: rgb(245, 169, 69) */;margin: auto;}
+.content1{max-width: 90%;  height: 816px; /* background: wheat */; margin: auto;}
 .content2{max-width: 90%;  height: 1214px; background: turquoise; margin: auto;margin: auto;}
 .content3{max-width: 90%;  height: 1162px; background-color: bisque; margin: auto;}
 .content4{max-width: 90%; height: 1214px; background-color: rgb(202, 202, 202); margin: auto;} 
