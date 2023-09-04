@@ -62,16 +62,22 @@
 }
 
 .buy1 {
-    border-radius: 30px;
     width: 107px;
     height: 40px;
     text-align: center;
-    color: white;
-    background: #000;
-    position: relative;
-    left: calc(100% - 53%);
     font-size: 16px;
-    line-height: 36px;
+    padding: 6px 20px;
+    border-radius: 30px;
+    border: 1.5px solid transparent;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background: #111;
+    color: #fff;
+    margin: auto;
 }
 
 /* content */
@@ -144,6 +150,14 @@
     left: 64px;
 }
 
+.featured {
+    max-width: calc(100% - 80px);
+    display: flex;
+    margin-right: 30px;
+
+}
+
+
 
 
 
@@ -160,7 +174,8 @@
     margin: auto;
     justify-content: center;
 }
-.community{
+
+.community {
     max-width: calc(100% - 120px);
     text-align: left;
     display: flex;
@@ -222,5 +237,8 @@
     width: 3rem;
     height: 3rem;
 }
-.up_footer{display: flex;
-font-size: 8px;}
+
+.up_footer {
+    display: flex;
+    font-size: 8px;
+}
