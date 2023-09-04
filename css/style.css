@@ -64,8 +64,7 @@
 }
 
 .buy1 {
-    width: 107px;
-    height: 40px;
+    max-width: 107px;
     text-align: center;
     font-size: 16px;
     padding: 6px 20px;
@@ -80,6 +79,7 @@
     background: #111;
     color: #fff;
     margin: auto;
+
 }
 
 /* content */
@@ -154,18 +154,6 @@
 
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
 .cloth {
     display: flex;
     margin: auto;
@@ -179,63 +167,38 @@
     margin: auto;
     justify-content: center;
 }
-
-
-/* footer */
-.footer_inner {
-    max-width: 100%;
-    background: #000000a1;
-    color: #fffdfd;
+footer{
+    background: #111;
 }
-
-.ft {
-    max-width: calc(100% - 5%);
-    background-color: #000000a1;
+.footer_inner{
+    max-width: 1440px;
+    background-color: #11111185;
     margin: auto;
-    padding: 6rem;
 }
-
-.help {
+.h2{
+    font-size: 15px;
+    color: #fff;
+}
+.middle{
+    color: #ffffff;
     position: relative;
-    left: 240px;
-    bottom: 110px;
+    left: 200px;
+    bottom: 105px;
 }
-
-.about {
+.right{
+    color: #ffffff;
     position: relative;
-    left: 480px;
-    bottom: 305px;
+    left: 400px;
+    bottom: 300px;
 }
-
-.SNS {
-    display: flex;
-    width: 200px;
-    margin-left: auto;
+.SNS{
+    max-width: 40px;
     position: relative;
-    bottom: 450px;
+    left: calc(100% - 100px);
+    bottom: 430px;
 }
-
-.twitter {
-    width: 3rem;
-    height: 3rem;
-}
-
-.facebook {
-    width: 3rem;
-    height: 3rem;
-}
-
-.youtube {
-    width: 3rem;
-    height: 3rem;
-}
-
-.insta {
-    width: 3rem;
-    height: 3rem;
-}
-
-.up_footer {
-    display: flex;
-    font-size: 8px;
+.location{
+    color: #ffffff;
+    position: relative;
+    bottom: 200px;
 }
