@@ -19,6 +19,7 @@
 .convas {
     position: relative;
     left: 65px;
+
 }
 
 .jordan {
@@ -99,20 +100,15 @@
     text-align: center;
 }
 
-.content3 {
-    max-width: calc(100% - 80px);
+.myVideo {
+   max-width: 100%;
+   height: auto;
     position: relative;
     left: calc(100% - 70%);
 }
 
 .c3_text {
     text-align: center;
-}
-
-.content4 {
-    max-width: calc(100% - 80px);
-    position: relative;
-    left: calc(100% - 70%);
 }
 
 .c4_text {
