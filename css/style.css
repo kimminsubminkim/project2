@@ -145,7 +145,7 @@ h2 {
     text-align: center;
 }
 
-.Trend{
+.Trend {
     display: flex;
     width: 90%;
     padding: 10px;
@@ -178,27 +178,35 @@ footer {
 
 .footer_inner {
     max-width: 1440px;
-    background-color: #11111185;
     margin: auto;
+}
+
+.fff {
+    color: #fff;
+}
+
+.gray {
+    color: #7e7e7e;
 }
 
 .h2 {
     font-size: 15px;
     color: #fff;
+    font-size: 12px;
 }
 
 .middle {
-    color: #ffffff;
     position: relative;
     left: 200px;
-    bottom: 105px;
+    bottom: 60px;
+    font-size: 12px;
 }
 
 .right {
-    color: #ffffff;
     position: relative;
     left: 400px;
-    bottom: 300px;
+    bottom: 200px;
+    font-size: 12px;
 }
 
 .SNS {
