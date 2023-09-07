@@ -9,7 +9,16 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/gnb.css">
     <link rel="stylesheet" href="css/popup.css">
+    <link rel="stylesheet" href="style.js">
     <link rel="icon" type="image/x-icon" href="img/favicon.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(".bxslider").bxSlider();
+        });
+    </script>
 
 </head>
 
@@ -47,6 +56,9 @@
                 <div class="login">
                     <p><a href="#">|로그인</a></p>
                 </div>
+            </div>
+            <div class="gnb">
+              
             </div>
         </div>
         <div class="header_down">
@@ -159,13 +171,28 @@
             <div><a href="#"><img src="./img/content26.webp" alt="26"></a></div>
             <div><a href="#"></a><img src="./img/content27.webp" alt="27"></div>
         </div>
-        <h1><a href="#">Featured Shoes</a></h1>
-        <div class="featured">
-            <div><a href="#"><img src="./img/content9.webp" alt=""></a></div>
-            <div><a href="#"><img src="./img/content10.webp" alt=""></a></div>
-            <div><a href="#"><img src="./img/content11.webp" alt=""></a></div>
-            <div><a href="#"><img src="./img/content12.webp" alt=""></a></div>
+        <h1>Featured Shoes</h1>
+        <div class="slider1">
+            <div class="slide"><img src="./img/slide1.webp" alt="1"></div>
+            <div class="slide"><img src="./img/slide2.webp" alt="1"></div>
+            <div class="slide"><img src="./img/slide3.webp" alt="1"></div>
+            <div class="slide"><img src="./img/slide4.webp" alt="1"></div>
+            <div class="slide"><img src="./img/slide5.webp" alt="1"></div>
+            <div class="slide"><img src="./img/slide6.webp" alt="1"></div>
+            <div class="slide"><img src="./img/slide7.webp" alt="1"></div>
+            <div class="slide"><img src="./img/slide8.webp" alt="1"></div>
+            <div class="slide"><img src="./img/slide9.webp" alt="1"></div>
         </div>
+        <h1>Always Iconic</h1>
+        <ul class="bxslider">
+            <li><img src="./img/al1.webp" alt="1"></li>
+            <li><img src="./img/al2.webp" alt="1"></li>
+            <li><img src="./img/al3.webp" alt="1"></li>
+            <li><img src="./img/al4.webp" alt="1"></li>
+            <li><img src="./img/al5.webp" alt="1"></li>
+            <li><img src="./img/al6.webp" alt="1"></li>
+            <li><img src="./img/al7.webp" alt="1"></li>
+        </ul>
         <div class="com_h1">
             <h1>나이키 커뮤니티와 함께 하기</h1>
         </div>
@@ -212,10 +239,10 @@
     <footer>
         <div class="footer_inner">
             <div class="h2">
-                <h3><a href="#">새로운 소식</a></h3>
-                <h3><a href="#">멤버가입</a></h3>
-                <h3><a href="#">매장안내</a></h3>
-                <h3><a href="#">나이키 저널</a></h3>
+                <h2 class="h2"><a href="#">새로운 소식</a></h2>
+                <h2 class="h2"><a href="#">멤버가입</a></h2>
+                <h2 class="h2"><a href="#">매장안내</a></h2>
+                <h2 class="h2"><a href="#">나이키 저널</a></h2>
             </div>
             <div class="middle">
                 <h2 class="fff"><a href="#">도움말</a></h2>
@@ -233,12 +260,12 @@
                 <p class="gray"><a href="#">투자자</a></p>
                 <p class="gray"><a href="#">지속가능성</a></p>
             </div>
-            <div class="SNS">
+           <!--  <div class="SNS">
                 <div><img src="./img/facebook.png" alt="facebook"></img></div>
                 <div><img src="./img/instagram.png" alt="instagram"></img></div>
                 <div><img src="./img/twitter.png" alt="twitter"></img></div>
                 <div><img src="./img/youtube.png" alt="youtube"></img></div>
-            </div>
+            </div> -->
             <div class="location">
                 <p>대한민국 © 2023 Nike, Inc. All Rights Reserved</p>
                 <p>(유)나이키코리아 대표 lorem impsup| 테헤란 서울구 강남로 30 강남파이낸스센터 152층</p>
@@ -268,6 +295,24 @@
         });
 
         video.play();
+    </script>
+    <script>
+        $('.bxslider').bxSlider({
+            minSlides: 5,
+            maxSlides: 5,
+            slideWidth: 500,
+            slideMargin: 10
+        });
+    </script>
+    <script>
+        $(document).ready(function () {
+            $('.slider1').bxSlider({
+                slideWidth: 500,
+                minSlides: 3,
+                maxSlides: 3,
+                slideMargin: 10
+            });
+        });
     </script>
 </body>
 

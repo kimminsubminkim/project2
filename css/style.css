@@ -27,6 +27,7 @@ h2 {
     display: flex;
     max-width: 40px;
 }
+ 
 
 .convas {
     position: relative;
@@ -43,8 +44,10 @@ h2 {
     display: flex;
     position: relative;
     left: 1600px;
-    top: -30px;
+    top: -15px;
     text-decoration: none;
+    font-size: 12px;
+    margin: 8px;
 }
 
 .header_down {
@@ -193,6 +196,8 @@ footer {
     font-size: 15px;
     color: #fff;
     font-size: 12px;
+    position: relative;
+    top: 15px;
 }
 
 .middle {
@@ -214,6 +219,7 @@ footer {
     position: relative;
     left: calc(100% - 100px);
     bottom: 430px;
+    display: flex;
 }
 
 .location {
@@ -222,3 +228,9 @@ footer {
     bottom: 200px;
     font-size: 10px;
 }
+.bx-viewport{
+ display: block;
+ margin: auto;
+}
+
+.h2{font-size: 16px;}
