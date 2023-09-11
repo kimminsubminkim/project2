@@ -611,8 +611,9 @@
                         </div>
                     </li><!-- //.dep1-7 -->
                 </ul><!-- //.gnb.inner -->
+            </nav>
         </div>
-        </nav>
+
     </header>
     <div class="banner">
         <a href="#"><img src="./img/banner.jpg" alt="banner"></a>
@@ -650,7 +651,7 @@
         <div class="myVideo">
             <video
                 src="https://player.vimeo.com/external/210744061.sd.mp4?s=ec51f6f3e931dd2fd324db1d89ee14ba5891c287&profile_id=164&oauth2_token_id=57447761"
-                controls>
+                autoplay infinite>
             </video>
         </div>
         <div class="c3_text">
@@ -663,7 +664,7 @@
         <div class="myVideo"><a href="#">
                 <video
                     src="https://player.vimeo.com/external/210743903.sd.mp4?s=b0e16cdbadb5ecb99e9876681ad145117ef4adef&profile_id=164&oauth2_token_id=57447761"
-                    controls>
+                    autoplay infinite>
                 </video>
             </a>
         </div>
@@ -829,22 +830,6 @@
         const openButton = document.getElementById('openPopup');
         const closeButton = document.getElementById('closePopup');
         const popup = document.getElementById('popup');
-
-        openButton.addEventListener('click', function () {
-            popup.style.display = 'block';
-        });
-
-        closeButton.addEventListener('click', function () {
-            popup.style.display = 'none';
-        });
-        const video = document.getElementById('myVideo');
-
-        video.addEventListener('ended', function () {
-            video.currentTime = 0;
-            video.play();
-        });
-
-        video.play();
     </script>
     <script>
         $('.bxslider').bxSlider({
@@ -863,6 +848,23 @@
                 slideMargin: 10
             });
         });
+    </script>
+    <script>
+        openButton.addEventListener('click', function () {
+            popup.style.display = 'block';
+        });
+
+        closeButton.addEventListener('click', function () {
+            popup.style.display = 'none';
+        });
+        const video = document.getElementById('myVideo');
+
+        video.addEventListener('ended', function () {
+            video.currentTime = 0;
+            video.play();
+        });
+
+        video.play();
     </script>
 </body>
 
