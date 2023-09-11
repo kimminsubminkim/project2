@@ -52,10 +52,11 @@ h2 {
     color: #111;
     font-weight: 1000;
 }
-.mainlogo{
-  width: 93px;
-  height: 93px;
-  right: 10px;
+
+.mainlogo {
+    width: 93px;
+    height: 93px;
+    right: 10px;
 }
 
 
@@ -212,11 +213,12 @@ footer {
 }
 
 .SNS {
-    max-width: 40px;
+    max-width: 100px;
     position: relative;
     left: calc(100% - 100px);
-    bottom: 430px;
+    bottom: 300px;
     display: flex;
+    color: #fbfbff;
 }
 
 .location {
@@ -271,7 +273,7 @@ nav {
     position: absolute;
     right: 200px;
     top: 90px;
-    
+
 }
 
 nav>.gnb {
