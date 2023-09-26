@@ -1,619 +1,119 @@
 <!DOCTYPE html>
-<html lang="kr">
+<html lang="ko">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nike. Just do it. 나이키 코리아</title>
+    <link rel="icon" type="image/x-icon" href="img/favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/gnb.css">
+    <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/popup.css">
-    <link rel="stylesheet" href="style.js">
-    <link rel="icon" type="image/x-icon" href="img/favicon.png">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-    <script>
-        $(document).ready(function () {
-            $(" .bxslider").bxSlider();
-        }); </script>
-
 </head>
 
 <body>
-    <button id="openPopup">공지!!</button>
-
     <div id="popup" class="popup">
         <div class="popup-content">
-            <p> 해당 사이트는 학습용으로 제작되었으며 나이키 코리아와 무관합니다.
-                구직용 포트폴리오로 상업적 목적이 없음을 알립니다.
-                닫기</p>
+            <p> 해당 사이트는 학습용으로 제작되었으며 나이키 코리아와 무관합니다. 구직용 포트폴리오로 상업적 목적이 없음을 알립니다. 닫기</p>
             <button id="closePopup">X</button>
         </div>
     </div>
     <header>
-        <div class="header_top">
-            <div class="header_logo">
-                <div class="jordan"><a href="#"><img src="./img/jordan.png" alt="jordan">
-                    </a>
-                </div>
-                <div class="convas"><a href="#"><img src="./img/convas.png" alt=" convas">
-                    </a>
-                </div>
+        <div class="header_top df">
+            <div class="second_brand df">
+                <a href="#"><img src="./img/jordan.png" alt=""></a>
+                <a href="#"><img src="./img/convas.png" alt=""></a>
             </div>
-            <div class="header_link">
-                <div class="maps">
-                    <p><a href="#">매장 찾기</a></p>
-                </div>
-                <div class="center">
-                    <p><a href="#">|고객센터</a></p>
-                </div>
-                <div class="join">
-                    <p><a href="#">|가입하기</a></p>
-                </div>
-                <div class="login">
-                    <p><a href="#">|로그인</a></p>
-                </div>
-            </div>
-            <div class="mainlogo">
-                <img src="./img/main_logo.png" alt="">
+            <div class="util_menu df">
+                <a href="">매장 찾기</a>
+                <a href="">고객센터</a>
+                <a href="">가입하기</a>
+                <a href=""> 로그인</a>
             </div>
         </div>
-        <div class="header_down">
-            <nav>
-                <ul class="gnb inner">
-                    <li class="dep1">
-                        <a href="#">New Releases</a>
-                        <div class="gnb_bg">
-                            <ul class="inner">
-                                <li>
-                                    <h3><a href="#">New & featured</a></h3>
-                                    <dl>
-                                        <dt></dt>
-                                        <dd><a href="#">신제품 전체보기</a></dd>
-                                        <dt></dt>
-                                        <dd><a href="#">SNKRS</a></dd>
-                                        <dt></dt>
-                                        <dd><a href="#">조던 스타일링</a></dd>
-                                        <dt></dt>
-                                        <dd><a href="#">킬리언 음바페 머큐리얼</a></dd>
-                                        <dt></dt>
-                                        <dd><a href="#">나이키 가을 에센셜</a></dd>
-                                        <dt></dt>
-                                        <dd><a href="#">테크 플리스</a></dd>
-                                        <dt></dt>
-                                        <dd><a href="#">샌들 & 슬리퍼</a></dd>
-                                        <dt></dt>
-                                        <dd><a href="#">아웃도어 & 트레일</a></dd>
-                                        <dt></dt>
-                                        <dd><a href="#">ACG 신제품</a></dd>
-                                        <dt></dt>
-                                        <dd><a href="#">Jordan 신제품</a></dd>
-                                    </dl><!-- dep3 -->
-                                </li>
-                                <li>
-                                    <h3><a href="#">Shop Icons</a></h3>
-                                    <dl>
-                                        <dt></dt>
-                                        <dd><a href="#">에어포스 1 & 덩크</a></dd>
-                                        <dd></dd>
-                                        <dd><a href="#">에어 조던 1</a></dd>
-                                        <dd></dd>
-                                        <dd><a href="#">에어 맥스</a></dd>
-                                        <dd><a href="#">줌 보메로 5</a></dd>
-                                        <dd><a href="#">코르테즈</a></dd>
-                                        <dd><a href="#">빨간펜S 한자</a></dd>
-                                        <dd><a href="#">테크 헤라</a></dd>
-                                        <dd><a href="#">페가수스</a></dd>
-                                        <dd><a href="#">인피니티 런</a></dd>
-                                        <dd><a href="#">메트콘</a></dd>
-                                        <dd><a href="#">스우시 브라</a></dd>
-                                    </dl><!-- dep3 -->
-                                </li>
-                                <li>
-                                    <h3><a href="#">남성 신제품</a></h3>
-                                    <dl>
-                                        <dt></dt>
-                                        <dd><a href="#">신발</a></dd>
-                                        <dt></dt>
-                                        <dd><a href="#">의류</a></dd>
-                                        <dd></dd>
-                                        <dt></dt>
-                                        <dd><a href="#">용품</a></dd>
-                                        <dt></dt>
-                                        <dd><a href="#">전체보기</a></dd>
-                                    </dl><!-- dep3 -->
-                                </li>
-                                <li>
-                                    <h3><a href="#">여성 신제품</a></h3>
-                                    <dl>
-                                        <dt></dt>
-                                        <dd><a href="#">신발</a></dd>
-                                        <dt></dt>
-                                        <dd><a href="#">의류</a></dd>
-                                        <dd></dd>
-                                        <dt></dt>
-                                        <dd><a href="#">용품</a></dd>
-                                        <dt></dt>
-                                        <dd><a href="#">전체보기</a></dd>
-                                    </dl><!-- dep3 -->
-                                </li>
-                                <li>
-                                    <h3><a href="#">키즈 신제품</a></h3>
-                                    <dl>
-                                        <dt></dt>
-                                        <dd><a href="#">신발</a></dd>
-                                        <dt></dt>
-                                        <dd><a href="#">의류</a></dd>
-                                        <dd></dd>
-                                        <dd><a href="#">용품</a></dd>
-                                        <dt></dt>
-                                        <dd><a href="#">전체보기</a></dd>
-                                    </dl><!-- dep3 -->
-                                </li>
-                            </ul><!-- dep2 -->
+        <nav class="header_bottom df">
+            <h1 class="logo"><img src="./img/main_logo.png" alt=""></h1>
+            <ul class="gnb inner df">
+                <li><a href="#">Men</a>
+                    <div class="full_bg">
+                        <div class="inner df">
+                            <ul class="sub">
+                                <li class="title"><a href="">New & Featured</a></li>
+                                <li><a href="">신제품 전체보기sa</a></li>
+                                <li><a href="">신제품 전체보기</a></li>
+                                <li><a href="">신제품 전체보기</a></li>
+                                <li><a href="">신제품 전체보기</a></li>
+                                <li><a href="">신제품 전체보기</a></li>
+                                <li><a href="">신제품 전체보기</a></li>
+                            </ul>
+                            <ul class="sub">
+                                <li class="title"><a href="">New & Featured</a></li>
+                                <li><a href="">신제품 전체보기</a></li>
+                                <li><a href="">신제품 전체보기</a></li>
+                                <li><a href="">신제품 전체보기</a></li>
+                                <li><a href="">신제품 전체보기</a></li>
+                                <li><a href="">신제품 전체보기</a></li>
+                                <li><a href="">신제품 전체보기</a></li>
+                            </ul>
+                            <ul class="sub">
+                                <li class="title"><a href="">New & Featured</a></li>
+                                <li><a href="">신제품 전체보기</a></li>
+                                <li><a href="">신제품 전체보기</a></li>
+                                <li><a href="">신제품 전체보기</a></li>
+                                <li><a href="">신제품 전체보기</a></li>
+                                <li><a href="">신제품 전체보기</a></li>
+                                <li><a href="">신제품 전체보기</a></li>
+                            </ul>
                         </div>
-                    </li><!-- //.dep1-1 -->
-                    <li class="dep1">
-                        <a href="#">MEN</a>
-                        <div class="gnb_bg">
-                            <ul class="inner">
-                                <li>
-                                    <h3><a href="#">New&Featured</a></h3>
-                                    <dl>
-                                        <dt></dt>
-                                        <dd><a href="#">신제품</a></dd>
-                                        <dd><a href="#">베스트셀러</a></dd>
-                                        <dd><a href="#">SNKRS</a></dd>
-                                        <dd><a href="#">킵초게 런닝 컬렉션</a></dd>
-                                        <dd><a href="#">Y2K 컬렉션</a></dd>
-                                        <dt></dt>
-                                        <dd><a href="#">나이키 가을 에센셜</a></dd>
-                                        <dt></dt>
-                                        <dd><a href="#">솔로 스우시 컬렉션</a></dd>
-                                        <dd><a href="#">빅 스우시 컬렉션</a></dd>
-                                        <dd><a href="#">ACG 신제품</a></dd>
-                                        <dd><a href="#">Jordan 신제품</a></dd>
-                                        <dd><a href="#">Sale: Up to 40% OFF</a></dd>
-                                    </dl><!-- dep3 -->
-                                </li>
-                                <li>
-                                    <h3><a href="#">신발</a></h3>
-                                    <dl>
-                                        <dt></dt>
-                                        <dd><a href="#">신발 전체</a></dd>
-                                        <dt></dt>
-                                        <dt></dt>
-                                        <dd><a href="#">라이프스타일</a></dd>
-                                        <dt></dt>
-                                        <dd><a href="#">샌들 & 슬리퍼</a></dd>
-                                        <dt></dt>
-                                        <dd><a href="#">런닝화 가이드</a></dd>
-                                        <dt></dt>
-                                        <dd><a href="#">러닝</a></dd>
-                                        <dd><a href="#">트레일</a></dd>
-                                        <dd><a href="#">트레이닝 & 짐</a></dd>
-                                        <dd><a href="#">농구</a></dd>
-                                        <dd><a href="#">조던</a></dd>
-                                        <dd><a href="#">축구</a></dd>
-                                        <dd><a href="#">스케이트보딩</a></dd>
-                                        <dd><a href="#">골프</a></dd>
-                                        <dd><a href="#">테니스</a></dd>
-                                        <dd><a href="#">10만원 이하 신발</a></dd>
-                                        <dd><a href="#">Sale: Up to 40% OFF</a></dd>
-                                    </dl><!-- dep3 -->
-                                </li>
-                                <li>
-                                    <h3><a href="#">의류</a></h3>
-                                    <dl>
-                                        <dt></dt>
-                                        <dd><a href="#">의류 전체</a></dd>
-                                        <dd><a href="#">라이프스타일</a></dd>
-                                        <dt></dt>
-                                        <dd><a href="#">탑 & 티셔츠</a></dd>
-                                        <dd><a href="#">쇼츠</a></dd>
-                                        <dd><a href="#">팬츠 & 타이츠</a></dd>
-                                        <dd><a href="#">드라이 핏</a></dd>
-                                        <dt></dt>
-                                        <dd><a href="#">후디 & 크루</a></dd>
-                                        <dd><a href="#">재킷 & 베스트</a></dd>
-                                        <dd><a href="#">나이키 프로</a></dd>
-                                        <dd><a href="#">수영복</a></dd>
-                                        <dd><a href="#">양말</a></dd>
-                                        <dd><a href="#">셋업</a></dd>
-                                        <dd><a href="#">Sale: Up to 40% OFF</a></dd>
-                                        <h3><a href="#">팀 유니폼</a></h3>
-                                        <dt></dt>
-                                        <dd><a href="#">NBA</a></dd>
-                                        <dd><a href="#">축구 클럽팀</a></dd>
-                                        <dd><a href="#">한국 국가 대표팀</a></dd>
-                                    </dl><!-- dep3 -->
-                                </li>
-                                <li>
-                                    <h3><a href="#">용품</a></h3>
-                                    <dl>
-                                        <dt></dt>
-                                        <dd><a href="#">모자 & 헤드밴드</a></dd>
-                                        <dt></dt>
-                                        <dd><a href="#">가방</a></dd>
-                                        <dd></dd>
-                                        <dt></dt>
-                                        <dd><a href="#">축구</a></dd>
-                                        <dd><a href="#">농구</a></dd>
-                                        <dd><a href="#">골프</a></dd>
-                                        <dd><a href="#">러닝</a></dd>
-                                        <dt></dt>
-                                        <dd><a href="#">트레이닝</a></dd>
-                                        <dd><a href="#">Sale: Up to 40% OFF</a></dd>
-                                    </dl><!-- dep3 -->
-                                </li>
-                                <li>
-                                    <h3><a href="#">Shop Collection</a></h3>
-                                    <dl>
-                                        <dt></dt>
-                                        <dd><a href="#">러닝</a></dd>
-                                        <dt></dt>
-                                        <dd><a href="#">아웃도어 & 트레일</a></dd>
-                                        <dd></dd>
-                                        <dt></dt>
-                                        <dd><a href="#">트레이닝 & 짐</a></dd>
-                                        <dd><a href="#">농구</a></dd>
-                                        <dd><a href="#">축구</a></dd>
-                                        <dd><a href="#">스케이트보딩</a></dd>
-                                        <dt></dt>
-                                        <dd><a href="#">골프</a></dd>
-                                        <dd><a href="#">테니스</a></dd>
-                                        <dd><a href="#">수영</a></dd>
-                                        <dd><a href="#">MEMBER SHOP</a></dd>
-                                        <dd><a href="#">Nike Sportswear</a></dd>
-                                        <dd><a href="#">NikeLab</a></dd>
-                                        <dd><a href="#">Jordan</a></dd>
-                                        <dd><a href="#">ACG</a></dd>
-                                    </dl><!-- dep3 -->
-                                </li>
-                            </ul><!-- dep2 -->
+                    </div>
+                </li>
+                <li><a href="#">Women</a>
+                    <div class="full_bg">
+                        <div class="inner df">
+                            <ul class="sub">
+                                <li class="title"><a href="">woman & Featured</a></li>
+                                <li><a href="">신제품 전체보기</a></li>
+                                <li><a href="">신제품 전체보기</a></li>
+                                <li><a href="">신제품 전체보기</a></li>
+                                <li><a href="">신제품 전체보기</a></li>
+                                <li><a href="">신제품 전체보기</a></li>
+                                <li><a href="">신제품 전체보기</a></li>
+                            </ul>
+                            <ul class="sub">
+                                <li class="title"><a href="">New & Featured</a></li>
+                                <li><a href="">신제품 전체보기</a></li>
+                                <li><a href="">신제품 전체보기</a></li>
+                                <li><a href="">신제품 전체보기</a></li>
+                                <li><a href="">신제품 전체보기</a></li>
+                                <li><a href="">신제품 전체보기</a></li>
+                                <li><a href="">신제품 전체보기</a></li>
+                            </ul>
+                            <ul class="sub">
+                                <li class="title"><a href="">New & Featured</a></li>
+                                <li><a href="">신제품 전체보기</a></li>
+                                <li><a href="">신제품 전체보기</a></li>
+                                <li><a href="">신제품 전체보기</a></li>
+                                <li><a href="">신제품 전체보기</a></li>
+                                <li><a href="">신제품 전체보기</a></li>
+                                <li><a href="">신제품 전체보기</a></li>
+                            </ul>
                         </div>
-                    </li><!-- //.dep1-2 -->
-                    <li class="dep1">
-                        <a href="#">W0MEN</a>
-                        <div class="gnb_bg">
-                            <ul class="inner">
-                                <li>
-                                    <h3><a href="#">New&Featured</a></h3>
-                                    <dl>
-                                        <dt></dt>
-                                        <dd><a href="#">신제품</a></dd>
-                                        <dd><a href="#">베스트셀러</a></dd>
-                                        <dd><a href="#">SNKRS</a></dd>
-                                        <dd><a href="#">Y2K 컬렉션</a></dd>
-                                        <dt></dt>
-                                        <dd><a href="#">나이키 가을 에센셜</a></dd>
-                                        <dt></dt>
-                                        <dd><a href="#">우먼스 간절기 플리스</a></dd>
-                                        <dd><a href="#">우먼스 트레이닝 & 짐</a></dd>
-                                        <dd><a href="#">우먼스 클래식</a></dd>
-                                        <dd><a href="#">Jordan 신제품</a></dd>
-                                        <dd><a href="#">Sale: Up to 40% OFF</a></dd>
-                                    </dl><!-- dep3 -->
-                                </li>
-                                <li>
-                                    <h3><a href="#">신발</a></h3>
-                                    <dl>
-                                        <dt></dt>
-                                        <dd><a href="#">신발 전체</a></dd>
-                                        <dt></dt>
-                                        <dt></dt>
-                                        <dd><a href="#">라이프스타일</a></dd>
-                                        <dt></dt>
-                                        <dd><a href="#">샌들 & 슬리퍼</a></dd>
-                                        <dt></dt>
-                                        <dd><a href="#">러닝</a></dd>
-                                        <dd><a href="#">트레일</a></dd>
-                                        <dd><a href="#">트레이닝 & 짐</a></dd>
-                                        <dd><a href="#">농구</a></dd>
-                                        <dd><a href="#">조던</a></dd>
-                                        <dd><a href="#">축구</a></dd>
-                                        <dd><a href="#">골프</a></dd>
-                                        <dd><a href="#">테니스</a></dd>
-                                        <dd><a href="#">10만원 이하 신발</a></dd>
-                                        <dd><a href="#">Sale: Up to 40% OFF</a></dd>
-                                    </dl><!-- dep3 -->
-                                </li>
-                                <li>
-                                    <h3><a href="#">의류</a></h3>
-                                    <dl>
-                                        <dt></dt>
-                                        <dd><a href="#">의류 전체</a></dd>
-                                        <dd><a href="#">스포츠 브라 유형 테스트</a></dd>
-                                        <dt></dt>
-                                        <dd><a href="#">스포츠 브라</a></dd>
-                                        <dd><a href="#">타이츠 & 레깅스</a></dd>
-                                        <dd><a href="#">팬츠</a></dd>
-                                        <dd><a href="#">쇼츠</a></dd>
-                                        <dt></dt>
-                                        <dd><a href="#">탑 & 티셔츠</a></dd>
-                                        <dd><a href="#">후디 & 크루</a></dd>
-                                        <dd><a href="#">재킷 & 베스트</a></dd>
-                                        <dd><a href="#">스커트 & 드레스</a></dd>
-                                        <dd><a href="#">요가</a></dd>
-                                        <dd><a href="#">수영복</a></dd>
-                                        <dd><a href="#">양말</a></dd>
-                                        <dd><a href="#">셋업</a></dd>
-                                        <dd><a href="#">Sale: Up to 40% OFF</a></dd>
-                                    </dl><!-- dep3 -->
-                                </li>
-                                <li>
-                                    <h3><a href="#">용품</a></h3>
-                                    <dl>
-                                        <dt></dt>
-                                        <dd><a href="#">모자 & 헤드밴드</a></dd>
-                                        <dt></dt>
-                                        <dd><a href="#">가방</a></dd>
-                                        <dd></dd>
-                                        <dt></dt>
-                                        <dd><a href="#">축구</a></dd>
-                                        <dd><a href="#">농구</a></dd>
-                                        <dd><a href="#">골프</a></dd>
-                                        <dd><a href="#">러닝</a></dd>
-                                        <dt></dt>
-                                        <dd><a href="#">트레이닝</a></dd>
-                                        <dd><a href="#">Sale: Up to 40% OFF</a></dd>
-                                    </dl><!-- dep3 -->
-                                </li>
-                                <li>
-                                    <h3><a href="#">Shop Collection</a></h3>
-                                    <dl>
-                                        <dt></dt>
-                                        <dd><a href="#">러닝</a></dd>
-                                        <dt></dt>
-                                        <dd><a href="#">아웃도어 & 트레일</a></dd>
-                                        <dd></dd>
-                                        <dt></dt>
-                                        <dd><a href="#">트레이닝 & 짐</a></dd>
-                                        <dd><a href="#">축구</a></dd>
-                                        <dt></dt>
-                                        <dd><a href="#">골프</a></dd>
-                                        <dd><a href="#">테니스</a></dd>
-                                        <dd><a href="#">요가</a></dd>
-                                        <dd><a href="#">수영</a></dd>
-                                        <dd><a href="#">MEMBER SHOP</a></dd>
-                                        <dd><a href="#">Nike Sportswear</a></dd>
-                                        <dd><a href="#">NikeLab</a></dd>
-                                        <dd><a href="#">Jordan</a></dd>
-                                        <dd><a href="#">ACG</a></dd>
-                                    </dl><!-- dep3 -->
-                                </li>
-                            </ul><!-- dep2 -->
-                        </div>
-                    </li><!-- //.dep1-3 -->
-                    <li class="dep1">
-                        <a href="#">KIDS</a>
-                        <div class="gnb_bg">
-                            <ul class="inner">
-                                <li>
-                                    <h3><a href="#">New&Featured</a></h3>
-                                    <dl>
-                                        <dt></dt>
-                                        <dd><a href="#">신제품</a></dd>
-                                        <dd><a href="#">베스트셀러</a></dd>
-                                        <dd><a href="#">덩크 & 에어 포스 1</a></dd>
-                                        <dd><a href="#">코르테즈</a></dd>
-                                        <dt></dt>
-                                        <dd><a href="#">코트 버로우</a></dd>
-                                        <dt></dt>
-                                        <dd><a href="#">키즈 가을 에센셜</a></dd>
-                                        <dd><a href="#">나이키 패밀리룩 아이템</a></dd>
-                                        <dd><a href="#">우리 아이 첫 나이키</a></dd>
-                                        <dd><a href="#">조던 키즈</a></dd>
-                                        <dd><a href="#">ACG</a></dd>
-                                        <dt></dt>
-                                        <dd><a href="#">아이들을 위한 선물</a></dd>
-                                        <dd><a href="#">Sale: Up to 40% OFF</a></dd>
-                                    </dl><!-- dep3 -->
-                                </li>
-                                <li>
-                                    <h3><a href="#">사이즈별</a></h3>
-                                    <dl>
-                                        <dt></dt>
-                                        <dd><a href="#">베이비 (0-3세)</a></dd>
-                                        <dt></dt>
-                                        <dt></dt>
-                                        <dd><a href="#">리틀키즈 (4-7세)</a></dd>
-                                        <dt></dt>
-                                        <dd><a href="#">주니어 (7-15세)</a></dd>
-                                    </dl><!-- dep3 -->
-                                </li>
-                                <li>
-                                    <h3><a href="#">신발</a></h3>
-                                    <dl>
-                                        <dt></dt>
-                                        <dd><a href="#">베이비 (160mm 이하)</a></dd>
-                                        <dd><a href="#">리틀키즈 (165-220mm)</a></dd>
-                                        <dt></dt>
-                                        <dd><a href="#">주니어 (225-250mm)</a></dd>
-                                        <dd><a href="#">라이프스타일</a></dd>
-                                        <dd><a href="#">샌들 & 슬리퍼</a></dd>
-                                        <dd><a href="#">러닝</a></dd>
-                                        <dt></dt>
-                                        <dd><a href="#">축구</a></dd>
-                                        <dd><a href="#">농구</a></dd>
-                                        <dd><a href="#">조던</a></dd>
-                                        <dd><a href="#">Sale: Up to 40% OFF</a></dd>
-                                    </dl><!-- dep3 -->
-                                </li>
-                                <li>
-                                    <h3><a href="#">의류</a></h3>
-                                    <dl>
-                                        <dt></dt>
-                                        <dd><a href="#">베이비 (0-3세)</a></dd>
-                                        <dt></dt>
-                                        <dd><a href="#">리틀키즈 (4-7세)</a></dd>
-                                        <dd></dd>
-                                        <dt></dt>
-                                        <dd><a href="#">주니어 (7-15세)</a></dd>
-                                        <dd><a href="#">쇼츠</a></dd>
-                                        <dd><a href="#">탑 & 티셔츠</a></dd>
-                                        <dd><a href="#">팬츠 & 레깅스</a></dd>
-                                        <dt></dt>
-                                        <dd><a href="#">상하의 세트</a></dd>
-                                        <dd><a href="#">브라</a></dd>
-                                        <dd><a href="#">후디 & 크루</a></dd>
-                                        <dd><a href="#">아우터 & 재킷</a></dd>
-                                        <dd><a href="#">스커트 & 드레스</a></dd>
-                                        <dd><a href="#">수영복</a></dd>
-                                        <dd><a href="#">Sale: Up to 40% OFF</a></dd>
-                                    </dl><!-- dep3 -->
-                                </li>
-                                <li>
-                                    <h3><a href="#">용품</a></h3>
-                                    <dl>
-                                        <dt></dt>
-                                        <dd><a href="#">가방</a></dd>
-                                        <dt></dt>
-                                        <dd><a href="#">모자</a></dd>
-                                        <dd></dd>
-                                        <dt></dt>
-                                        <dd><a href="#">양말</a></dd>
-                                        <dd><a href="#">축구</a></dd>
-                                        <dt></dt>
-                                        <dd><a href="#">농구</a></dd>
-                                        <dd><a href="#">트레이닝</a></dd>
-                                        <dd><a href="#">Sale: Up to 40% OFF</a></dd>
-                                    </dl><!-- dep3 -->
-                                </li>
-                                <li>
-                                    <h3><a href="#">Shop Collection</a></h3>
-                                    <dl>
-                                        <dt></dt>
-                                        <dd><a href="#">러닝</a></dd>
-                                        <dt></dt>
-                                        <dd><a href="#">축구</a></dd>
-                                        <dt></dt>
-                                        <dd><a href="#">농구</a></dd>
-                                        <dd><a href="#">테니스</a></dd>
-                                        <dd><a href="#">수영</a></dd>
-                                        <dd><a href="#">Jordan</a></dd>
-                                        <dd><a href="#">ACG</a></dd>
-                                    </dl><!-- dep3 -->
-                                </li>
-                            </ul><!-- dep2 -->
-                        </div>
-                    </li><!-- //.dep1-4 -->
-                    <li class="dep1">
-                        <a href="#">Sale</a>
-                        <div class="gnb_bg">
-                            <ul class="inner">
-                                <li>
-                                    <h3><a href="#">Sale</a></h3>
-                                    <dl>
-                                        <dt></dt>
-                                        <dd><a href="#">New to Sale</a></dd>
-                                        <dd><a href="#">ACG</a></dd>
-                                        <dd><a href="#">나이키 덩크</a></dd>
-                                        <dd><a href="#">에어 포스 1</a></dd>
-                                        <dt></dt>
-                                        <dd><a href="#">에어 조던</a></dd>
-                                        <dt></dt>
-                                        <dd><a href="#">에어 맥스</a></dd>
-                                    </dl><!-- dep3 -->
-                                </li>
-                                <li>
-                                    <h3><a href="#">Mens Sale</a></h3>
-                                    <dl>
-                                        <dt></dt>
-                                        <dd><a href="#">신발</a></dd>
-                                        <dt></dt>
-                                        <dt></dt>
-                                        <dd><a href="#">의류</a></dd>
-                                        <dt></dt>
-                                        <dd><a href="#">용품</a></dd>
-                                        <dd><a href="#">10만원 이하</a></dd>
-                                        <dd><a href="#">전체 보기</a></dd>
-                                    </dl><!-- dep3 -->
-                                </li>
-                                <li>
-                                    <h3><a href="#">Womens Sale</a></h3>
-                                    <dl>
-                                        <dt></dt>
-                                        <dd><a href="#">신발</a></dd>
-                                        <dd><a href="#">의류</a></dd>
-                                        <dt></dt>
-                                        <dd><a href="#">용품</a></dd>
-                                        <dd><a href="#">10만원 이하</a></dd>
-                                        <dd><a href="#">전체 보기</a></dd>
-                                    </dl><!-- dep3 -->
-                                </li>
-                                <li>
-                                    <h3><a href="#">Kids Sale</a></h3>
-                                    <dl>
-                                        <dt></dt>
-                                        <dd><a href="#">신발</a></dd>
-                                        <dt></dt>
-                                        <dd><a href="#">의류</a></dd>
-                                        <dd></dd>
-                                        <dt></dt>
-                                        <dd><a href="#">용품</a></dd>
-                                        <dd><a href="#">10만원 이하</a></dd>
-                                        <dd><a href="#">전체 보기</a></dd>
-                                    </dl><!-- dep3 -->
-                                </li>
-                                <li>
-                                    <h3><a href="#">용품</a></h3>
-                                    <dl>
-                                        <dt></dt>
-                                        <dd><a href="#">가방</a></dd>
-                                        <dt></dt>
-                                        <dd><a href="#">모자</a></dd>
-                                        <dd></dd>
-                                        <dt></dt>
-                                        <dd><a href="#">양말</a></dd>
-                                        <dd><a href="#">축구</a></dd>
-                                        <dt></dt>
-                                        <dd><a href="#">농구</a></dd>
-                                        <dd><a href="#">트레이닝</a></dd>
-                                        <dd><a href="#">Sale: Up to 40% OFF</a></dd>
-                                    </dl><!-- dep3 -->
-                                </li>
-                                <li>
-                                    <h3><a href="#">Shop Collection</a></h3>
-                                    <dl>
-                                        <dt></dt>
-                                        <dd><a href="#">러닝</a></dd>
-                                        <dt></dt>
-                                        <dd><a href="#">축구</a></dd>
-                                        <dt></dt>
-                                        <dd><a href="#">농구</a></dd>
-                                        <dd><a href="#">테니스</a></dd>
-                                        <dd><a href="#">수영</a></dd>
-                                        <dd><a href="#">Jordan</a></dd>
-                                        <dd><a href="#">ACG</a></dd>
-                                    </dl><!-- dep3 -->
-                                </li>
-                            </ul><!-- dep2 -->
-                        </div>
-                    </li><!-- //.dep1-5 -->
-                    <li class="dep1">
-                        <a href="#">SNKRS</a>
-                        <div class="gnb_bg">
-                            <ul class="inner">
-                            </ul><!-- dep2 -->
-                        </div>
-                    </li><!-- //.dep1-6 -->
-                    <li class="dep1">
-                        <a href="#"></a>
-                        <div class="gnb_bg">
-                            <ul class="inner">
-                                <li class="app">
-                                </li>
-                            </ul><!-- dep2 -->
-                        </div>
-                    </li><!-- //.dep1-7 -->
-                </ul><!-- //.gnb.inner -->
-            </nav>
-        </div>
-
+                    </div>
+                </li>
+                <li><a href="#">Kids</a></li>
+                <li><a href="#">Sale</a></li>
+                <li><a href="#">SNKRS</a></li>
+                <li><a href="#">나이키 앱</a></li>
+            </ul>
+            <div class="util_bar df">
+                <form action="#">
+                    <input type="text">
+                </form>
+                <a href="#">icon</a>
+            </div>
+        </nav>
     </header>
     <div class="banner">
         <a href="#"><img src="./img/banner.jpg" alt="banner"></a>
@@ -623,7 +123,6 @@
                 <p>안정적인 런닝을 위해 설계된 인피니티 런 4의 지지력으로 자유롭게 달려보세요</p>
             </a></div>
         <div class="buy1"><a href="#">구매하기</a></div>
-
     </div>
     <main>
         <div class="content1"><a href="#">
@@ -643,15 +142,12 @@
             <a href="#">
                 <h2>나이키와 함께하는 가을 스타일링</h2>
                 <h1>간절기 스타일링</h1>
-                <p>변화무쌍한 날씨에도 편안한 야외 활동을 가능하게 해주는 간절기 스타일링.
-                    매주 공개되는 스타일링 미션에 참여하여 특별한 기프트도 함께 만나 보세요.</p>
+                <p>변화무쌍한 날씨에도 편안한 야외 활동을 가능하게 해주는 간절기 스타일링. 매주 공개되는 스타일링 미션에 참여하여 특별한 기프트도 함께 만나 보세요.</p>
             </a>
         </div>
         <div class="buy1"><a href="#">구매하기</a></div>
         <div class="myVideo">
-            <video
-                src="https://player.vimeo.com/external/210744061.sd.mp4?s=ec51f6f3e931dd2fd324db1d89ee14ba5891c287&profile_id=164&oauth2_token_id=57447761"
-                autoplay infinite>
+            <video src="https://player.vimeo.com/external/210744061.sd.mp4?s=ec51f6f3e931dd2fd324db1d89ee14ba5891c287&profile_id=164&oauth2_token_id=57447761" autoplay>
             </video>
         </div>
         <div class="c3_text">
@@ -662,9 +158,7 @@
         </div>
         <div class="buy1"><a href="#">구매하기</a></div>
         <div class="myVideo"><a href="#">
-                <video
-                    src="https://player.vimeo.com/external/210743903.sd.mp4?s=b0e16cdbadb5ecb99e9876681ad145117ef4adef&profile_id=164&oauth2_token_id=57447761"
-                    autoplay infinite>
+                <video src="https://player.vimeo.com/external/210743903.sd.mp4?s=b0e16cdbadb5ecb99e9876681ad145117ef4adef&profile_id=164&oauth2_token_id=57447761" autoplay>
                 </video>
             </a>
         </div>
@@ -688,13 +182,10 @@
         <div class="c6_text"><a href="#">
                 <h2>나이키 레디팩</h2>
                 <h1>축구를 위한 모든 것</h1>
-                <p>새로운 의미로 기억될 축구 시즌을 맞이해보세요.
-                    <br>최상의 스피드,터치감,민첩성,그리고 정교함으로 완벽하게 경기를 준비해보세요
-                </p>
+                <p>새로운 의미로 기억될 축구 시즌을 맞이해보세요. <br>최상의 스피드,터치감,민첩성,그리고 정교함으로 완벽하게 경기를 준비해보세요 </p>
             </a>
         </div>
         <div class="buy1"><a href="#">구매하기</a></div>
-
         <div class="Trend">
             <h1>Trending</h1>
             <div class="content7"><a href="#">
@@ -718,27 +209,31 @@
             <div><a href="#"></a><img src="./img/content27.webp" alt="27"></div>
         </div>
         <h1>Featured Shoes</h1>
-        <div class="slider1">
-            <div class="slide"><img src="./img/slide1.webp" alt="1"></div>
-            <div class="slide"><img src="./img/slide2.webp" alt="1"></div>
-            <div class="slide"><img src="./img/slide3.webp" alt="1"></div>
-            <div class="slide"><img src="./img/slide4.webp" alt="1"></div>
-            <div class="slide"><img src="./img/slide5.webp" alt="1"></div>
-            <div class="slide"><img src="./img/slide6.webp" alt="1"></div>
-            <div class="slide"><img src="./img/slide7.webp" alt="1"></div>
-            <div class="slide"><img src="./img/slide8.webp" alt="1"></div>
-            <div class="slide"><img src="./img/slide9.webp" alt="1"></div>
+        <div class="slide_wrap">
+            <div class="slider1">
+                <div class="slide"><img src="./img/slide1.webp" alt="1"></div>
+                <div class="slide"><img src="./img/slide2.webp" alt="1"></div>
+                <div class="slide"><img src="./img/slide3.webp" alt="1"></div>
+                <div class="slide"><img src="./img/slide4.webp" alt="1"></div>
+                <div class="slide"><img src="./img/slide5.webp" alt="1"></div>
+                <div class="slide"><img src="./img/slide6.webp" alt="1"></div>
+                <div class="slide"><img src="./img/slide7.webp" alt="1"></div>
+                <div class="slide"><img src="./img/slide8.webp" alt="1"></div>
+                <div class="slide"><img src="./img/slide9.webp" alt="1"></div>
+            </div>
         </div>
         <h1>Always Iconic</h1>
-        <ul class="bxslider">
-            <li><img src="./img/al1.webp" alt="1"></li>
-            <li><img src="./img/al2.webp" alt="1"></li>
-            <li><img src="./img/al3.webp" alt="1"></li>
-            <li><img src="./img/al4.webp" alt="1"></li>
-            <li><img src="./img/al5.webp" alt="1"></li>
-            <li><img src="./img/al6.webp" alt="1"></li>
-            <li><img src="./img/al7.webp" alt="1"></li>
-        </ul>
+        <div class="slide_wrap">
+            <ul class="bxslider">
+                <li><img src="./img/al1.webp" alt="1"></li>
+                <li><img src="./img/al2.webp" alt="1"></li>
+                <li><img src="./img/al3.webp" alt="1"></li>
+                <li><img src="./img/al4.webp" alt="1"></li>
+                <li><img src="./img/al5.webp" alt="1"></li>
+                <li><img src="./img/al6.webp" alt="1"></li>
+                <li><img src="./img/al7.webp" alt="1"></li>
+            </ul>
+        </div>
         <div class="com_h1">
             <h1>나이키 커뮤니티와 함께 하기</h1>
         </div>
@@ -747,41 +242,26 @@
                 <a href="#"><img src="./img/content28.webp" alt="28"></a>
                 <div class="app">
                     <h3>나이키 앱</h3>
-                    <p>원하는 것을 누구보다 빠르게,
-                        새로운 영감으로 매일을 새롭게,
-                        상상만 했던 경험을 현실로.
-                        여러분의 매일을 나이키 앱에서 바꿔 보세요.
-                    </p>
+                    <p>원하는 것을 누구보다 빠르게, 새로운 영감으로 매일을 새롭게, 상상만 했던 경험을 현실로. 여러분의 매일을 나이키 앱에서 바꿔 보세요. </p>
                 </div>
                 <div class="radius1"><a href="#">자세히보기</a></div>
             </div>
             <div>
                 <a href="#"><img src="./img/content29.webp" alt="29"></a>
                 <h3>나이키 트레이닝 클럽(NTC)</h3>
-                <p>NTC 앱으로 개인 맞춤형 트레이닝 가이드를 만나 보세요.
-                    운동, 마음가짐, 영양, 수면 등 몸과
-                    마음을 위한 전문가 팁도 함께 제공됩니다.
-                </p>
+                <p>NTC 앱으로 개인 맞춤형 트레이닝 가이드를 만나 보세요. 운동, 마음가짐, 영양, 수면 등 몸과 마음을 위한 전문가 팁도 함께 제공됩니다. </p>
                 <div class="radius1"><a href="#">자세히보기</a></div>
             </div>
-
             <div>
                 <a href="#"><img src="./img/content30.jpg" alt="30"></a>
                 <h3>나이키 런 클럽(NRC)</h3>
-                <p> NRC 앱과 함께 언제 어디서든 러닝을 시작해 보세요.
-                    전문 러닝 코치들의 오디오 가이드 런으로
-                    올바른 러닝 루틴을 만들 수 있습니다.
-                </p>
+                <p> NRC 앱과 함께 언제 어디서든 러닝을 시작해 보세요. 전문 러닝 코치들의 오디오 가이드 런으로 올바른 러닝 루틴을 만들 수 있습니다. </p>
                 <div class="radius1"><a href="#">자세히보기</a></div>
             </div>
-
             <div>
                 <a href="#"><img src="./img/content31.jpg" alt="31"></a>
                 <h3>SNKRS 앱</h3>
-                <p> 최고의 스니커즈, 최신 발매 소식, 독점 비하인드 스토리.
-                    새로운 스니커즈 문화를 선도할
-                    SNKRS 커뮤니티로 초대 합니다.
-                </p>
+                <p> 최고의 스니커즈, 최신 발매 소식, 독점 비하인드 스토리. 새로운 스니커즈 문화를 선도할 SNKRS 커뮤니티로 초대 합니다. </p>
                 <div class="radius1"><a href="#">자세히보기</a></div>
             </div>
         </div>
@@ -811,11 +291,10 @@
                 <p class="gray"><a href="#">지속가능성</a></p>
             </div>
             <div class="SNS">
-                <div><a href="#"><img src="./img/facebook.png" alt="facebook"></img></a></div>
-                <div><a href="#"></a><img src="./img/instagram.png" alt="instagram"></img></a></div>
-                <div><a href="#"></a><img src="./img/twitter.png" alt="twitter"></img></a></div>
-                <div><a href="#"></a><img src="./img/youtube.png" alt="youtube"></img></a></div>
-
+                <div><a href="#"><img src="./img/facebook.png" alt="facebook"></a></div>
+                <div><a href="#"></a><img src="./img/instagram.png" alt="instagram"></a></div>
+                <div><a href="#"></a><img src="./img/twitter.png" alt="twitter"></a></div>
+                <div><a href="#"></a><img src="./img/youtube.png" alt="youtube"></a></div>
             </div>
             <div class="location">
                 <p>대한민국 © 2023 Nike, Inc. All Rights Reserved</p>
@@ -826,45 +305,24 @@
             </div>
         </div>
     </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
     <script>
-        const openButton = document.getElementById('openPopup');
-        const closeButton = document.getElementById('closePopup');
-        const popup = document.getElementById('popup');
-    </script>
-    <script>
-        $('.bxslider').bxSlider({
-            minSlides: 5,
-            maxSlides: 5,
+
+        $('.slider1').bxSlider({
             slideWidth: 500,
+            minSlides: 3,
+            maxSlides: 3,
+            slideMargin: 10,
+            auto:true,
+        });
+        $('.bxslider').bxSlider({
+            slideWidth: 500,
+            minSlides: 3,
+            maxSlides: 3,
             slideMargin: 10
         });
-    </script>
-    <script>
-        $(document).ready(function () {
-            $('.slider1').bxSlider({
-                slideWidth: 500,
-                minSlides: 3,
-                maxSlides: 3,
-                slideMargin: 10
-            });
-        });
-    </script>
-    <script>
-        openButton.addEventListener('click', function () {
-            popup.style.display = 'block';
-        });
 
-        closeButton.addEventListener('click', function () {
-            popup.style.display = 'none';
-        });
-        const video = document.getElementById('myVideo');
-
-        video.addEventListener('ended', function () {
-            video.currentTime = 0;
-            video.play();
-        });
-
-        video.play();
     </script>
 </body>
 
